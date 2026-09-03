@@ -1,9 +1,7 @@
-//
 //  ContentView.swift
 //  InvasivaArter
-//
-//  Created by Ola Knutsson on 2025-07-15.
-//
+//  Created by Ola Knutsson on 2025-07-15,
+//  Modified by Kim Lindfors & Miguel Pérez dos Santos
 
 import SwiftUI
 import CoreML
@@ -12,14 +10,10 @@ import Vision
 struct ContentView: View {
     // variabel för bilderna
     @State private var nsImage: NSImage?
-    
     // variabel för prediktionen som kommer att komma som en String från modellen
     @State private var prediction: String = "No prediction yet"
-    
-    
     // variabel för hur säker modellen är på prediktionen
     @State private var highestConfidence: Float = 0.33
-    
 
     var body: some View {
         VStack {
@@ -37,7 +31,6 @@ struct ContentView: View {
                 // Spacer()
                 Text("Confidence: "+"\(highestConfidence)")
             }
-        
                 .padding()
             Button("Open Image") {
                 openImage()
@@ -45,7 +38,6 @@ struct ContentView: View {
         }
         .frame(width: 400, height: 400)
     }
-
     // funktion för att ta fram en bild genom filhanteraren och be om klassificering
     func openImage() {
         let panel = NSOpenPanel()
@@ -89,7 +81,6 @@ struct ContentView: View {
                         prediction = "Fackelblomster"
                         
                     }
-                    
                     // Hur säker modellen är på prediktionen
                    let confBest = first.confidence
                     
@@ -98,7 +89,6 @@ struct ContentView: View {
                     print(prediction)
                     highestConfidence = confBest
                  //   print(confBest)
-                    
                     
                 } else {
                     prediction = "Could not classify image"
