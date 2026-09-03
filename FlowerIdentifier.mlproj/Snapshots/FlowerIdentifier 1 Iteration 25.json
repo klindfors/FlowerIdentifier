@@ -1,0 +1,832 @@
+{
+  "activityEntities" : [
+    "evaluationFinished",
+    [
+      {
+        "createdDate" : "2026-09-03T13:28:10Z",
+        "event" : "evaluationFinished",
+        "id" : "99977DE0-648C-4441-8125-276E0FBC6573",
+        "subtitle" : "FlowerIdentifier 1",
+        "title" : "Testing Completed"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-09-03T13:28:05Z",
+        "event" : "trainingStarted",
+        "id" : "1A9BE4F2-00D3-47E8-B580-BE421B85700B",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "evaluationStarted",
+    [
+      {
+        "createdDate" : "2026-09-03T13:28:10Z",
+        "event" : "evaluationStarted",
+        "id" : "1A4FE584-91CD-459A-8675-88108D11151C",
+        "subtitle" : "FlowerIdentifier 1",
+        "title" : "Testing Started"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-09-03T13:28:08Z",
+        "event" : "trainingFinished",
+        "id" : "E41A06D3-AD60-44E3-8A4B-80F94184B16C",
+        "subtitle" : "25 iterations",
+        "title" : "Training Completed"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-09-03T13:27:33Z",
+        "event" : "evaluationDataAdded",
+        "id" : "F8108D22-8695-414E-9D47-A62FBA314D1F",
+        "subtitle" : "TestData",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-09-03T13:27:08Z",
+        "event" : "experimentCreated",
+        "id" : "F7C84699-657A-47F0-9239-B974B84D730D",
+        "subtitle" : "FlowerIdentifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-09-03T13:27:24Z",
+        "event" : "trainingDataAdded",
+        "id" : "EC551D46-6454-431B-B2B3-3CE83F64F41D",
+        "subtitle" : "TrainingData",
+        "title" : "Training Data Added"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-09-03T13:27:24Z"
+  },
+  "createdDate" : "2026-09-03T13:28:32Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-09-03T13:28:32Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "ecf54a7d-8223-4ddc-8af9-ad12725e8252",
+    "modifiedDate" : "2026-09-03T13:28:32Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "datasource",
+      "createdDate" : "2026-09-03T13:28:32Z",
+      "dataResult" : {
+        "createdDate" : "2026-09-03T13:28:32Z",
+        "dataSourceID" : "68415A05-6240-4CE5-A169-E00D6EAE7016",
+        "dataURL" : "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TestData/"
+      },
+      "dataSourceID" : "68415A05-6240-4CE5-A169-E00D6EAE7016",
+      "id" : "d7caad4f-8e02-4dca-8e21-3cdb6b46214a"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-09-03T13:28:32Z",
+      "dataResult" : {
+        "createdDate" : "2026-09-03T13:28:32Z",
+        "dataSourceID" : "6A945ACE-D454-4E6E-8269-A936B37D39AC",
+        "dataURL" : "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/"
+      },
+      "dataSourceID" : "6A945ACE-D454-4E6E-8269-A936B37D39AC",
+      "id" : "82e018d1-a17f-408a-9413-f0e0758d9532"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-09-03T13:28:32Z",
+      "dataResult" : {
+        "createdDate" : "2026-09-03T13:28:32Z"
+      },
+      "id" : "ade80880-8572-473d-a1b8-1313f7e13b7f"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "9c4c804d-b68a-43ff-a56c-94ce1eaf52a1"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "B6D29AE3-C094-4411-AC96-C30763C22685",
+  "modelEntity" : {
+    "createdDate" : "2026-09-03T13:28:32Z",
+    "experimentID" : "C2E7B319-F1FA-4D07-9713-6C622BBC6FE9",
+    "id" : "6B9EC39F-AE6F-4592-9C3E-CC227FD3B400",
+    "modelURL" : "Snapshots/FlowerIdentifier%201%20Iteration%2025.mlmodel",
+    "modifiedDate" : "2026-09-03T13:28:32Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-09-03T13:28:32Z",
+  "preferredFilename" : "FlowerIdentifier 1 Iteration 25",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "snapshotIteration" : 25,
+    "snapshotParent" : "C2E7B319-F1FA-4D07-9713-6C622BBC6FE9"
+  },
+  "state" : "trained",
+  "title" : "Iteration 25",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+      "25" : {
+        "createdDate" : "2026-09-03T13:28:08Z",
+        "iteration" : 25,
+        "metrics" : {
+
+        }
+      }
+    },
+    "dataResult" : {
+      "classesCount" : 4,
+      "createdDate" : "2026-09-03T13:28:32Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "details" : [
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102823.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8815.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8840.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8771.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102926.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8755.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8770.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8808.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8834.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8760.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8833.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8841.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103151.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8807.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102836.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8768.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102818.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8811.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8810.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8764.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8822.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8816.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102955.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8818.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8842.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104806.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103154.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103325.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8847.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103127.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8820.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103159.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102920.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104401.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102757.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8850.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104353.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8809.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102805.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8812.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8823.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8813.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8838.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8839.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8761.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103310.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8837.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8757.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102749.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8843.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102906.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8759.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8836.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8817.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103147.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8821.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8844.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102930.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8806.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103202.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8835.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8765.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102842.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102941.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102858.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8849.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8781.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8777.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8767.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102820.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103132.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8763.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104646.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8769.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102934.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8845.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8805.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104810.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8762.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104814.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_103321.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8814.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102811.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8766.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8846.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8848.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8778.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8831.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8772.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8819.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104640.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/storBlaklocka/IMG_8758.png",
+            [
+              "storBlaklocka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/rallarros/IMG_8832.png",
+            [
+              "rallarros"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/jatteBjornloka/IMG_8804.png",
+            [
+              "jatteBjornloka"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104637.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_104408.jpg",
+            [
+              "fackelBlomster"
+            ],
+            "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/fackelBlomster/20260903_102831.jpg",
+            [
+              "fackelBlomster"
+            ]
+          ],
+          "labelStats" : {
+            "fackelBlomster" : 37,
+            "jatteBjornloka" : 20,
+            "rallarros" : 20,
+            "storBlaklocka" : 20
+          }
+        },
+        "issues" : [
+          {
+            "description" : "4 classes found, including fackelBlomster, rallarros, storBlaklocka",
+            "severity" : "debug"
+          },
+          {
+            "description" : "97 images found, automatically creating validation set",
+            "severity" : "good"
+          },
+          {
+            "description" : "Smallest class is \"jatteBjornloka\" with 20 images",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"fackelBlomster\" with 37 images",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 4,
+          "sampleCount" : 97
+        }
+      },
+      "dataSourceID" : "6A945ACE-D454-4E6E-8269-A936B37D39AC",
+      "dataURL" : "file:///Users/student-mac-02/Desktop/GRUPP%2011-LABB%201/Blomma/TrainingData/",
+      "itemsCount" : 97
+    },
+    "dataSourceID" : "6A945ACE-D454-4E6E-8269-A936B37D39AC",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-09-03T13:28:08Z",
+    "progress" : [
+      {
+        "count" : 0,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 20,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      }
+    ],
+    "resumableCheckpoint" : {
+      "checkpointURL" : "file:///Users/student-mac-02/Library/Caches/com.apple.dt.createml/projects/1D3E728E-43AC-404F-ADA5-44B055901261fd62ea67dfd0224f67acaa317cb93e4683ecb482/sessions/checkpoint.sessions/C2E7B319-F1FA-4D07-9713-6C622BBC6FE9/training-000000025.checkpoint",
+      "createdDate" : "2026-09-03T13:28:08Z",
+      "iteration" : 25
+    },
+    "snapshottableCheckpoints" : {
+      "25" : {
+        "createdDate" : "2026-09-03T13:28:08Z",
+        "iteration" : 25,
+        "modelURL" : "file:///Users/student-mac-02/Library/Caches/com.apple.dt.createml/projects/1D3E728E-43AC-404F-ADA5-44B055901261fd62ea67dfd0224f67acaa317cb93e4683ecb482/sessions/checkpoint.sessions/C2E7B319-F1FA-4D07-9713-6C622BBC6FE9/training-000000025.checkpoint.model/checkpointModel.mlmodel"
+      }
+    },
+    "startTime" : "2026-09-03T13:28:05Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "fackelBlomster",
+            "count" : 33,
+            "expected" : "fackelBlomster"
+          },
+          {
+            "actual" : "jatteBjornloka",
+            "count" : 18,
+            "expected" : "jatteBjornloka"
+          },
+          {
+            "actual" : "rallarros",
+            "count" : 18,
+            "expected" : "rallarros"
+          },
+          {
+            "actual" : "storBlaklocka",
+            "count" : 18,
+            "expected" : "storBlaklocka"
+          }
+        ],
+        "statsByLabel" : {
+          "fackelBlomster" : {
+            "count" : 33,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "jatteBjornloka" : {
+            "count" : 18,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "rallarros" : {
+            "count" : 18,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "storBlaklocka" : {
+            "count" : 18,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 1,
+    "validationResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "fackelBlomster",
+            "count" : 4,
+            "expected" : "fackelBlomster"
+          },
+          {
+            "actual" : "jatteBjornloka",
+            "count" : 2,
+            "expected" : "jatteBjornloka"
+          },
+          {
+            "actual" : "rallarros",
+            "count" : 2,
+            "expected" : "rallarros"
+          },
+          {
+            "actual" : "storBlaklocka",
+            "count" : 2,
+            "expected" : "storBlaklocka"
+          }
+        ],
+        "statsByLabel" : {
+          "fackelBlomster" : {
+            "count" : 4,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "jatteBjornloka" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "rallarros" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "storBlaklocka" : {
+            "count" : 2,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-09-03T13:28:32Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-09-03T13:27:08Z",
+        "event" : "projectCreated",
+        "id" : "D7B5B44B-0BD1-47D2-BBC6-23FDE876BC2E",
+        "subtitle" : "FlowerIdentifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Student-Mac-02",
+  "createdDate" : "2026-09-03T13:27:08Z",
+  "description" : "",
+  "id" : "1D3E728E-43AC-404F-ADA5-44B055901261",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-09-03T13:27:08Z",
+  "projectName" : "FlowerIdentifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}
